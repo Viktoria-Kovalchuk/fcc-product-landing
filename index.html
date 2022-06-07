@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+    <img id="header-img" class="header-img" src="img/pasta.png" alt="Pasta Image">
+    <nav id="nav-bar">
+        <a class="nav-link" href="#recepies">Recepies</a>
+        <a class="nav-link" href="#perfect">Your perfect pasta!</a>
+        <a class="nav-link" href="#history">History</a>
+    </nav>
+    </header>
+    <main>
+        <div class="main__recepies">
+        <h2 id="recepies">Recepies</h2>
+             <h4>Mussels with Chinese sausage and rice noodles</h4>
+                 <a href="https://soyricefire.com/2016/07/10/mussels-with-chinese-sausage-and-rice-noodles/" target="blank"><img class="recepies__img" src="img/mussels-pasta.jpeg"></a>
+
+            <h4>Stuffed pasta bake bolognese</h4>
+                 <a href="https://www.bbcgoodfood.com/recipes/stuffed-pasta-bake-bolognese" target="blank"><img class="recepies__img" src="img/stuffed-pasta.jpeg"></a>
+        </div>
+
+        <div class="main__history">
+            <h2 id="history">History of Pasta</h2>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yyVMZHjaY40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="perfect" class="main__perfect-pasta">
+            <h2>Find your perfect pasta!</h2>
+                 <form id="form">
+                     <p id="perfect-pasta">Complete this test to find out about the best pasta recepe which is perfect for you</p>
+                     <p>1. What is your favourite pasta sauce?</p>
+                     <label for="tomato">
+                          <input id="tomato" value="tomato" type="radio" name="tomato-white">Tomato
+                     </label>
+                     <label for="white">
+                         <input id="white" value="white" type="radio" name="tomato-white">White
+                    </label>
+                </form>
+                    <p>2. What do you like your pasta with?</p>
+                     <form id="form">
+                         <label for="meat">
+                             <input id="meat" value="meat" type="radio" name="meat-seafood-vegetarian">Meat
+                         </label>
+                          <label for="seafood">
+                             <input id="seafood" value="seafood" type="radio" name="meat-seafood-vegetarian">Seafood
+                         </label>
+                         <label for="vegetarian">
+                             <input id="vegetarian" value="vegetarian" type="radio" name="meat-seafood-vegetarian">Vegetarian
+                         </label>
+                     </form>
+                    <p>3. What are your favourite vegetables? (more than one answer is possible)</p>
+                     <form id="form">
+                         <label for="tomatos"><input id="tomatos" value="tomatos" type="checkbox" name="vegetables">Tomatos</label>
+                         <label for="peppers"><input id="peppers" value="peppers" type="checkbox" name="vegetables">Peppers</label>
+                         <label for="onions"><input id="onions" value="onions" type="checkbox" name="vegetables">Onions</label>
+                         <label for="cabbage"><input id="cabbage" value="cabbage" type="checkbox" name="vegetables">Cabbage</label>
+                        </form>
+                    <p>4. If you already have a favourite pasta, write your email and I'll write you to discuss</p>
+                     <form id="form">
+                         <input id="email" type="email" placeholder="my email">
+                         <button id="submit" type="submit">Submit</button>
+                     </form>
+                    <p>5. Do you like pasta?</p>
+                    <form id="form">
+                         <input type="checkbox" name="love" checked>Yes
+                         <input type="checkbox" name="love" checked>Absolutely
+                        <input type="checkbox" name="love" checked>Can't live without it
+                     </form>
+                     </div>
+
+
+    </main>
+</body>
+</html>

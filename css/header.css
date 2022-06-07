@@ -1,0 +1,10 @@
+.header-img {
+    display: inline-block;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.nav-link {
+    display: block;
+}
