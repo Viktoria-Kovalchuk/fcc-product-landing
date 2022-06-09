@@ -1,17 +1,37 @@
-.header-img {
-    display: inline-block;
-    width: 30%;
-    margin-top: 5%;
-    margin-left: 5%;
-}
 
-.nav-link {
-    display: inline-block;
-    padding: 20px 40px 20px 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+.header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 40px;
 }
-.history {
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: dotted rgb(245, 206, 15);
+    border-width: 0 0 10px;
+    height: 50px;
+    width: 100%;
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEF9A7;
+}
+    
+.nav-link {
+    /*display: inline-block;
+    padding: 20px 40px 20px 40px;
+    font-size: 25px; */
+   
+
+    
+
+/*    .history {
     position:absolute;
     right: 50px;
 }
@@ -23,17 +43,9 @@
 
 .recepies {
     position: absolute;
-    right: 500px;
+    right: 500px; */
 }
-#nav-bar {
-    position: fixed;
-    top: 0;
-    left: 0;;
-    width: 100%;
-    display: flex;
-    background-image: url(../img/pasta-background.jpg);
-    height: 50px;
-    border: dotted rgb(245, 206, 15);
-    border-width: 0 0 10px;
 
+.header__intro {
+    text-align: center;
 }

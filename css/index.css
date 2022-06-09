@@ -9,6 +9,6 @@
     }
 }
 
-.flex-container {
-    display: flex;
+.main__recepies {
+  display: flex;
 }

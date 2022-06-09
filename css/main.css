@@ -1,7 +1,73 @@
+#recepies {
+    padding-top: 62px;
+    text-align: center;
+}
+
+.main__separator {
+    border: dotted rgb(245, 206, 15);
+    border-width: 0 0 10px;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 500px) {
+    .main__separator {
+        width: 10%
+    }
+}
+
+.main__recepies {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.main__recepies_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media (min-width: 500px) {
+    .main__recepies {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
 .recepies__img {
-    width: 40%;
+    width: 70%;
 }
 
 .recepies__img_stuffed {
-    width: 50%;
+    width: 70%;
+}
+
+@media (min-width: 500px) {
+    .recepies__img_stuffed {
+        width: 90%;
+    }
+}
+
+#history {
+    padding-top: 62px;
+    text-align: center;
+}
+
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#perfect {
+    padding-top: 62px;
+    text-align: center;
 }
